@@ -74,7 +74,7 @@ const onConnect=()=>{
     <div className="row" style={{marginTop:"430px"}}> 
       <div className="col s12 l12">
         <div className="center-align">
-          <a onClick={onEnter} className="btn waves-effect cyan lighten-2" style={{padding:"0 75px",borderRadius:"18px",fontWeight:"400",fontSize:"20px"}}>ENTER</a>
+          <a onClick={onEnter} className="btn waves-effect cyan lighten-2" style={{padding:"0 75px",borderRadius:"18px",fontWeight:"400",fontSize:"20px",marginTop:"110px"}}>ENTER</a>
           <p className="center-align white-text" style={{fontSize:"15px",marginTop:"35px"}}>M A X I M I Z E &nbsp; P R O F I T A B I L I T Y</p>
           <h4 className="center-align white-text" style={{marginTop:"35px"}}>B I N A N C E C H A I N</h4>
         </div>
