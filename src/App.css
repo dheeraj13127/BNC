@@ -11,14 +11,17 @@ body{
  
 }
 .component2Column{
+  
   background-image: url('./components//images//back2.png');
-  background-position: center;
+  background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* margin-top: 20px; */
  
 }
 .component2Placeholder::placeholder{
-color: white;
+color:#bdbdbd; 
+font-size: 25px;
 }
 .box{
 
@@ -40,4 +43,18 @@ color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
  padding: 10px 3.5px;
+}
+.component2Sub{
+  font-size: 32px;
+}
+@media screen and (min-width:900px) {
+  .component2Header {
+    letter-spacing:1.2 rem;
+  }
+}
+@media screen and (max-width:900px) {
+  .component2Sub {
+    font-size: 22px !important;
+    letter-spacing: 0.7rem !important;
+  }
 }
